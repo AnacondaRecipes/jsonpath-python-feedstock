@@ -25,12 +25,16 @@ requirements:
     - python
 
 test:
+  source_files:
+    - test
   imports:
     - jsonpath
-  commands:
-    - pip check
   requires:
     - pip
+    - pytest
+  commands:
+    - pip check
+    - pytest -v test
 
 about:
   home: https://github.com/zhangxianbing/jsonpath-python
