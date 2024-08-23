@@ -49,5 +49,3 @@ about:
 extra:
   recipe-maintainers:
     - jan-janssen
-  skip-lints:
-    - host_section_needs_exact_pinnings
