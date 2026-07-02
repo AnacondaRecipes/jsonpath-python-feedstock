@@ -22,17 +22,14 @@ requirements:
   run:
     - python
 
+# Unable to run tests poethepoet is not in the main channel
 test:
-  source_files:
-    - tests
   imports:
     - jsonpath
   commands:
     - pip check
-    - pytest -v tests
   requires:
     - pip
-    - pytest >=8.0.0
 
 about:
   home: https://github.com/zhangxianbing/jsonpath-python
