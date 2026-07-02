@@ -29,7 +29,7 @@ test:
     - jsonpath
   commands:
     - pip check
-    - pytest -v test
+    - pytest -v tests
   requires:
     - pip
     - pytest >=8.0
